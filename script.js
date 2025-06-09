@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // Password validation
-        if (password.length){
+        if (password.length) {
             isValid = false;
             messages.push("Password must be at least 8 characters long.");
         }
